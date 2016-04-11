@@ -1,0 +1,4 @@
+%li{ class: ('active' if current_admin_path.start_with?('/events')) }
+  = link_to admin_events_path do
+    = plugin.name
+    %small Here's where you can manage events
